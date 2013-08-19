@@ -1,0 +1,20 @@
+[18-Mar-2013 22:16:41] PHP Parse error:  syntax error, unexpected '}' in /home/shahida2/public_html/shahidahtravel.tk/registration/client_register.php on line 19
+[18-Mar-2013 22:17:25] PHP Parse error:  syntax error, unexpected '}' in /home/shahida2/public_html/shahidahtravel.tk/registration/client_register.php on line 19
+[18-Mar-2013 22:17:33] PHP Parse error:  syntax error, unexpected '}' in /home/shahida2/public_html/shahidahtravel.tk/registration/client_register.php on line 19
+[18-Mar-2013 22:17:59] PHP Warning:  mysqli_connect() [<a href='function.mysqli-connect'>function.mysqli-connect</a>]: (28000/1045): Access denied for user 'shahida2'@'localhost' (using password: NO) in /home/shahida2/public_html/shahidahtravel.tk/registration/client_register.php on line 2
+[18-Mar-2013 22:17:59] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/shahida2/public_html/shahidahtravel.tk/registration/client_register.php on line 11
+[18-Mar-2013 22:17:59] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/shahida2/public_html/shahidahtravel.tk/registration/client_register.php on line 13
+[19-Mar-2013 16:07:01] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/shahida2/public_html/shahidahtravel.tk/registration/jotform.php on line 15
+[19-Mar-2013 16:08:08] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/shahida2/public_html/shahidahtravel.tk/registration/jotform.php on line 15
+[19-Mar-2013 16:08:13] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/shahida2/public_html/shahidahtravel.tk/registration/jotform.php on line 15
+[19-Mar-2013 16:08:19] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/shahida2/public_html/shahidahtravel.tk/registration/jotform.php on line 15
+[19-Mar-2013 16:09:18] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/shahida2/public_html/shahidahtravel.tk/registration/jotform.php on line 15
+[19-Mar-2013 16:09:26] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/shahida2/public_html/shahidahtravel.tk/registration/jotform.php on line 15
+[19-Mar-2013 16:11:00] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/shahida2/public_html/shahidahtravel.tk/registration/jotform.php on line 15
+[19-Mar-2013 16:12:34] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/shahida2/public_html/shahidahtravel.tk/registration/jotform.php on line 15
+[19-Mar-2013 17:48:22] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/shahida2/public_html/shahidahtravel.tk/registration/logout.php on line 8
+[19-Mar-2013 17:48:22] PHP Fatal error:  Call to undefined function redirect() in /home/shahida2/public_html/shahidahtravel.tk/registration/logout.php on line 9
+[19-Mar-2013 17:51:32] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/shahida2/public_html/shahidahtravel.tk/registration/logout.php on line 8
+[19-Mar-2013 17:51:32] PHP Fatal error:  Call to undefined function redirect() in /home/shahida2/public_html/shahidahtravel.tk/registration/logout.php on line 9
+[26-Jun-2013 18:00:24] PHP Warning:  session_destroy() [<a href='function.session-destroy'>function.session-destroy</a>]: Trying to destroy uninitialized session in /home/shahida2/public_html/shahidahtravel.com/registration/logout.php on line 8
+[26-Jun-2013 18:00:24] PHP Fatal error:  Call to undefined function redirect() in /home/shahida2/public_html/shahidahtravel.com/registration/logout.php on line 9

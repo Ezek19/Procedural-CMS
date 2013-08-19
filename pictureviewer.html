@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="../public/scripts/kcfinder/upload/images/getpics.php" type="text/javascript"></script>
+<style type="text/css">
+
+#picturearea{
+filter:alpha(opacity=100);
+-moz-opacity: 0;
+}
+
+</style>
+
+<!-- Change path below to point to "getpics.php" on your server -->
+<script src="getpics.php" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+/*<!-- Dynamic PHP Picture Viewer (v1.0)- By JavaScriptKit.com (http://www.javascriptkit.com) //--->
+<!-- For this and over 400+ free scripts, visit JavaScript Kit- http://www.javascriptkit.com/ //--->
+<!-- This notice must stay intact for use //--->*/
+
+function populateSelect(selectobj){
+for (var i=0; i<picsarray.length; i++)
+selectobj.options[selectobj.options.length]=new Option(picsarray[i], picsarray[i])
+if (selectobj.options.length>1){
+selectobj.selectedIndex=0
+showpicture(document.getElementById("picsform").picslist)
+}
+}
+
+function showpicture(selectobj){
+piccontainerobj=document.getElementById("picturearea")
+resetfade(10)
+piccontainerobj.innerHTML='<img src="'+locationstring+selectobj.options[selectobj.selectedIndex].value+'">'
+fadepictoview=setInterval("gradualfade(piccontainerobj)",50)
+}
+
+function resetfade(degree){
+if (window.fadepictoview)
+clearInterval(fadepictoview)
+if (typeof piccontainerobj.style.MozOpacity=="string")
+piccontainerobj.style.MozOpacity=degree/100
+else if (piccontainerobj.filters)
+piccontainerobj.filters.alpha.opacity=degree
+}
+
+function gradualfade(){
+if (typeof piccontainerobj.style.MozOpacity=="string" && piccontainerobj.style.MozOpacity<1)
+piccontainerobj.style.MozOpacity=Math.min(parseFloat(piccontainerobj.style.MozOpacity)+0.2, 0.99)
+else if (piccontainerobj.filters && piccontainerobj.filters.alpha.opacity<100)
+piccontainerobj.filters.alpha.opacity+=20
+else //if not IE or Moz
+clearInterval(fadepictoview)
+}
+
+window.onload=function(){
+populateSelect(document.getElementById("picsform").picslist)
+}
+
+</script>
+</head>
+<body>
+
+<div style="float: left; width: 200px;">
+<form id="picsform">
+<select name="picslist" size="4" style="width: 200px; height: 600px" onClick="showpicture(this)">
+</select>
+</form>
+</div>
+
+<div id="picturearea" style="float: left; width: 400px; height: 300px; margin-left: 20px">
+</div>
+
+<br style="clear: left" />
+
+<p style="font: normal 11px Arial">This free script provided by<br />
+<a href="http://www.javascriptkit.com">JavaScript Kit</a></p>
+</body>
+</html>

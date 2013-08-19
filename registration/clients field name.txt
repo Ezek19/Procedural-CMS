@@ -1,0 +1,49 @@
+1. namaPakej
+2. tarikhBerangkat_day
+3. tarikhBerangkat_month
+4. tarikhBerangkat_year
+5. berapaOrang
+6. namaPemohon
+7. alamat
+8. poskod
+9. telefonPrabayar_area
+10. telefonPrabayar_phone
+11. telefonPejabat_area
+12. telefonPejabat_phone
+13. emailPeribadi
+14. jantina
+15. tarikhLahir_day
+16. tarikhLahir_month
+17. tarikhLahir_year
+18. pekerjaan
+19. kedudukanDiri
+20. anggotaKeluarga
+21. noPasport
+22. kerakyatan
+23. tarikhTamat_day
+24. tarikhTamat_month
+25. tarikhTamat_year
+26. namaIbu
+27. pernahkahAnda
+28. maklumatKesihatan24
+29. namaWaris
+30. alamat28
+31. poskod27
+32. hubungan
+33. noTel_area
+34. noTel_phone
+35. telPrabayar_area
+36. telPrabayar_phone
+
+
+
+
+
+
+
+
+
+
+
+
+
